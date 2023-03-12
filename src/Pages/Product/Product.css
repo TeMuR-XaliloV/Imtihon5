@@ -1,0 +1,114 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    list-style: none;
+    text-decoration: none;
+}
+.product-nav{
+    padding-left: 100px;
+    padding-bottom: 13px;
+    display: flex;
+    gap: 10px;
+    cursor: pointer;
+}
+.product-nav strong{
+    color: #53B175;
+}
+.search-menu{
+    margin-left: 100px;
+    margin-right: 100px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 24px;
+}
+.pc-barg-left{
+    position: absolute;
+    margin-top: 31px;
+    z-index: -99999;
+    pointer-events: none;
+}
+#search{
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 21px;
+    text-align: center;
+    color: #B0B7C3;
+    background: rgba(236, 238, 242, 0.4);
+    border-radius: 100px;
+    padding-top: 7px;
+    padding-bottom: 7px;
+    border: 1px solid rgba(236, 238, 242, 0.296);
+}
+#productss{
+    margin-left: 100px;
+    margin-right: 100px;
+    display: flex;
+    gap: 70px;
+    margin-bottom: 300px;
+}
+.category{
+    padding: 20px;
+    background: #FFFFFF;
+    border-radius: 15px;
+    margin-right: 70px;
+    width: 280px;
+    height: max-content;
+    border: 1px solid rgb(177, 176, 176);
+}
+.category input{
+    width: 18px;
+    height: 18px;
+    cursor: pointer;
+}
+.category div{
+    margin-bottom: 14px;
+    gap: 15px;
+    display: flex;
+}
+.category p{
+    padding-top: 7px;
+    color: #53B175;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 24px;
+    cursor: pointer;
+}
+.category-title{
+    align-items: center;
+    text-align: center;
+    display: flex;
+    justify-content: space-between;
+}
+.category-title p{
+    color: #B0B7C3;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 21px;
+    text-align: center;
+    align-items: center;
+    display: flex;
+    gap: 6px;
+    cursor: pointer;
+}
+.products{
+    display: flex;
+}
+.all-product{
+    display: flex;
+    gap: 30px;
+    flex-wrap: wrap;
+    max-width: 892px;
+}
+.product-right-leaf{
+    position: absolute;
+    right: 0%;
+    bottom: -90%;
+    pointer-events: none;
+    z-index: -9999;
+    opacity: 0.1;
+}
+.card-p{
+    margin-bottom: 0;
+}
